@@ -20,24 +20,22 @@ Python automation tool for managing Cisco Catalyst Center Access Point locations
 
 ## Installation
 
-'''
-bash
+`
 pip install requests urllib3
-'''
+`
 
 ## CSV Format
 
-'''csv
-Device Name,New Floor,New X,New Y
-AP-NAME-001,Global/Site/Building/Floor1,100.5,200.3
-AP-NAME-002,Global/Site/Building/Floor2,150.0,250.0
-'''
+| Device Name  | New Floor                        | New X | New Y |
+|--------------|----------------------------------|-------|-------|
+| AP-NAME-001  | Global/Site/Building/Floor1      | 100.5 | 200.3 |
+| AP-NAME-002  | Global/Site/Building/Floor2      | 150.0 | 250.0 |
 
 ## Usage
 
-'''bash
+`
 python dnac-ap-location.py --file devices.csv --dnac-ip <DNAC_IP> --username <USERNAME>
-'''
+`
 
 ## Output
 
