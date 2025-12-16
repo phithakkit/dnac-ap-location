@@ -23,6 +23,10 @@ Python automation tool for managing Cisco Catalyst Center Access Point locations
 `
 pip install requests urllib3
 `
+or
+`
+pip install -r .\requirements.txt
+`
 
 ## CSV Format
 
