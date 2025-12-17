@@ -19,11 +19,11 @@ Python automation tool for managing Cisco Catalyst Center Access Point locations
 
 ## Installation
 
-`bash
+`
 pip install requests urllib3
 `
 or
-`bash
+`
 pip install -r .\requirements.txt
 `
 
@@ -69,12 +69,12 @@ Updates AP positions on their current floor maps without relocating them.
 ## Usage
 
 ### Move AP to New Map
-`bash
+`
 python dnac-ap-location.py --file devices.csv --dnac-ip <DNAC_IP> --username <USERNAME> --option move_new_map
 `
 
 ### Update Positions on Existing Map
-`bash
+`
 python dnac-ap-location.py --file devices.csv --dnac-ip <DNAC_IP> --username <USERNAME> --option move_existing_map
 `
 
